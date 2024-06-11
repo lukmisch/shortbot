@@ -73,7 +73,7 @@ async def loop(client):
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 def run():
-    TOKEN = 'MTI0ODU0MTA4Mzc5Nzk1MDUxNQ.GzcO61.Yt5IC2MPzxdqaIv56mLOl_KtkVfSb6N6pHTp7A'
+    TOKEN = '' # Your token here
     intents = discord.Intents.default()
     intents.message_content = True
     client = commands.Bot(command_prefix='!', intents=intents)
